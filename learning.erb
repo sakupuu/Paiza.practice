@@ -1,0 +1,12 @@
+・標準入力にて得た値を逆順で出力する場合
+例：
+input = gets.chomp!
+puts input.reverse!
+
+・標準入力にて複数値を得た場合に最大値と最小値を出力する場合
+例：
+input = readlines.map(&:to_i) #mapは関数。配列の各要素に関数を適用するという意味。この場合は全てを数値として受け取っている。
+puts input.max
+puts input.min
+
+
